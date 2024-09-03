@@ -1,0 +1,719 @@
+[
+    {
+        "programme_name": "Foundation in Computing",
+        "campuses": [
+            "Kuala Lumpur",
+            "Penang"
+        ],
+        "duration": "1 Year",
+        "intake": {
+            "Kuala Lumpur": "February, June, October",
+            "Penang": "June"
+        },
+        "programme_outlines": [
+            "English Language",
+            "Introduction to Programming",
+            "Introduction to Computer Networks",
+            "Information Technology Essentials",
+            "Mathematics",
+            "Data Management",
+            "Web Development",
+            "Statistics",
+            "English for Communication",
+            "Introduction to Multimedia",
+            "Introduction to Operating Systems",
+            "Emerging Trends in IT",
+            "Algebra & Trigonometry",
+            "Calculus"
+        ],
+        "estimated_fees": {
+            "Malaysian Students": 10200,
+            "International Students": 18400
+        },
+        "minimum_entry_requirements": [
+            {
+                "exam_qualification": "SPM",
+                "grade": "5 Credits",
+                "subject": "The relevant subjects which must include English Language and one mathematics subject"
+            },
+            {
+                "exam_qualification": "O LEVEL",
+                "grade": "5 Grade C",
+                "subject": "The relevant subjects which must include English Language and one mathematics subject"
+            },
+            {
+                "exam_qualification": "UEC",
+                "grade": "3 Grade B",
+                "subject": "The relevant subjects which must include English Language and one mathematics subject"
+            }
+        ]
+    },
+    {
+        "programme_name": "Foundation in Computing",
+        "campuses": [
+            "Kuala Lumpur",
+            "Penang"
+        ],
+        "duration": "1 Year",
+        "intake": {
+            "Kuala Lumpur": "February, June, October",
+            "Penang": "June"
+        },
+        "programme_outlines": [
+            "English Language",
+            "Introduction to Programming",
+            "Introduction to Computer Networks",
+            "Information Technology Essentials",
+            "Mathematics",
+            "Data Management",
+            "Web Development",
+            "Statistics",
+            "English for Communication",
+            "Introduction to Multimedia",
+            "Introduction to Operating Systems",
+            "Emerging Trends in IT",
+            "Algebra & Trigonometry",
+            "Calculus"
+        ],
+        "estimated_fees": {
+            "Malaysian Students": 10200,
+            "International Students": 18400
+        },
+        "minimum_entry_requirements": [
+            {
+                "exam_qualification": "SPM",
+                "grade": "5 Credits",
+                "subject": "The relevant subjects which must include Mathematics and English Language"
+            },
+            {
+                "exam_qualification": "O LEVEL",
+                "grade": "5 Grade C",
+                "subject": "The relevant subjects which must include Mathematics and English Language"
+            },
+            {
+                "exam_qualification": "UEC",
+                "grade": "3 Grade B",
+                "subject": "The relevant subjects which must include Mathematics and English Language"
+            }
+        ]
+    },
+    {
+        "programme_name": "Diploma in Computer Science",
+        "campuses": [
+            "KL - Kuala Lumpur Main Campus",
+            "PG - Penang Branch Campus",
+            "JH - Johor Branch Campus"
+        ],
+        "duration": "2 years",
+        "intake": "June",
+        "programme_outlines": "Problem Solving and Programming, Computer Architecture, Systems Analysis and Design, Ethics in Computing, Calculus and Algebra, Database Development and Applications, Software Development Fundamentals, Probability and Statistics, Fundamentals of Computer Networks, Discrete Mathematics, Introduction to Interface Design, Object-Oriented Programming Techniques, Operating Systems, Fundamentals of Artificial Intelligence, Introduction to Data Structures and Algorithms, Systems and Programming Concepts, Mobile Application Development, Mini Project, Parallel and Distributed Computing, Introduction to Cybersecurity, Industrial Training (20 weeks), English for Tertiary Studies, Academic English, Bahasa Kebangsaan A/ Civic Consciousness and Volunteerism , Penghayatan Etika dan Peradaban, Integrity and Anti Corruption, Co-curricular",
+        "estimated_fees": 19300,
+        "minimum_entry_requirements": [
+            {
+                "exam_qualification": "SPM",
+                "grade": "3 Credits",
+                "subject": "in the relevant subjects"
+            },
+            {
+                "exam_qualification": "O Level",
+                "grade": "3 Grade C",
+                "subject": "in the relevant subjects"
+            },
+            {
+                "exam_qualification": "UEC",
+                "grade": "3 Grade B",
+                "subject": "in the relevant subjects"
+            },
+            {
+                "exam_qualification": "SPM Credit in Additional Mathematics/O Level Grade C in Mathematics-Additional/UEC Grade B",
+                "subject": "in one mathematics subject"
+            },
+            {
+                "exam_qualification": "OR",
+                "grade": "SPM Credit/O Level Grade C",
+                "subject": "in Mathematics AND Grade C in AMMS0204 Mathematics conducted by TAR UMT"
+            },
+            {
+                "exam_qualification": "SPM Pass/O Level Grade E (Pass)/UEC Grade C",
+                "subject": "in English Language"
+            }
+        ],
+        "academic_progression": "Graduates may be admitted into Year 2 of: Bachelor of Science (Honours) in Management Mathematics with Computing, Bachelor of Software Engineering  (Honours), Bachelor of Computer Science (Honours) in Interactive Software Technology, Bachelor of Computer Science (Honours) in Data Science, Bachelor of Information Systems (Honours) in Enterprise Information Systems, Bachelor of Information Technology (Honours) in Information Security, Bachelor of Information Technology (Honours) in Software Systems Development"
+    },
+    {
+        "programme_name": "Diploma in Computer Science",
+        "campuses": [
+            "KL - Kuala Lumpur Main Campus",
+            "PG - Penang Branch Campus",
+            "JH - Johor Branch Campus"
+        ],
+        "duration": "2 years",
+        "intake": "June",
+        "programme_outlines": [
+            "Problem Solving and Programming",
+            "Computer Architecture",
+            "Systems Analysis and Design",
+            "Ethics in Computing",
+            "Calculus and Algebra",
+            "Database Development and Applications",
+            "Software Development Fundamentals",
+            "Probability and Statistics",
+            "Fundamentals of Computer Networks",
+            "Discrete Mathematics",
+            "Introduction to Interface Design",
+            "Object-Oriented Programming Techniques",
+            "Operating Systems",
+            "Fundamentals of Artificial Intelligence",
+            "Introduction to Data Structures and Algorithms",
+            "Systems and Programming Concepts",
+            "Mobile Application Development",
+            "Mini Project",
+            "Parallel and Distributed Computing",
+            "Introduction to Cybersecurity",
+            "Industrial Training (20 weeks)"
+        ],
+        "estimated_fees": {
+            "Malaysian Student": 19300,
+            "International Student": 36100
+        },
+        "minimum_entry_requirements": [
+            {
+                "exam_qualification": "SPM",
+                "grade": "3 Credits",
+                "subject": "in the relevant subjects"
+            },
+            {
+                "exam_qualification": "O Level",
+                "grade": "3 Grade C",
+                "subject": "in the relevant subjects"
+            },
+            {
+                "exam_qualification": "UEC",
+                "grade": "3 Grade B",
+                "subject": "in the relevant subjects"
+            },
+            {
+                "exam_qualification": "SPM Credit in Additional Mathematics/O Level Grade C in Mathematics-Additional/UEC Grade B in one mathematics subject OR SPM Credit/O Level Grade C in Mathematics AND Grade C in AMMS0204 Mathematics conducted by TAR UMT",
+                "grade": "Pass/Grade C/Grade C"
+            },
+            {
+                "exam_qualification": "SPM/O Level/UEC",
+                "grade": "Pass/Grade E (Pass)/Grade C",
+                "subject": "in English Language"
+            }
+        ],
+        "academic_progression": "Graduates may be admitted into Year 2 of: Bachelor of Science (Honours) in Management Mathematics with Computing, Bachelor of Software Engineering (Honours), Bachelor of Computer Science (Honours) in Interactive Software Technology, Bachelor of Computer Science (Honours) in Data Science, Bachelor of Information Systems (Honours) in Enterprise Information Systems, Bachelor of Information Technology (Honours) in Information Security, Bachelor of Information Technology (Honours) in Software Systems Development"
+    },
+    {
+        "programme_name": "Diploma in Information Technology",
+        "campuses": [
+            "Kuala Lumpur Main Campus",
+            "Penang Branch Campus",
+            "Perak Branch Campus",
+            "Johor Branch Campus",
+            "Pahang Branch",
+            "Sabah Branch"
+        ],
+        "duration": "2 years",
+        "intake": "June",
+        "programme_outlines": [
+            "Problem Solving and Programming",
+            "Introduction to Interface Design",
+            "Information Technology and Systems",
+            "Web-Based Integrated Systems",
+            "Ethics in Computing",
+            "Web and Mobile Systems",
+            "Cloud Computing and Business",
+            "Systems Analysis and Design",
+            "Object-Oriented Programming Techniques",
+            "Operating Systems",
+            "Computer Architecture",
+            "Fundamentals of Computer Networks",
+            "Information Management",
+            "Database Development and Applications",
+            "Introduction to Cybersecurity",
+            "Calculus and Algebra",
+            "Probability and Statistics",
+            "Discrete Mathematics",
+            "Discrete Mathematical Structures",
+            "Industrial Training"
+        ],
+        "estimated_fees": {
+            "Malaysian Student": 19300,
+            "International Student": 36100
+        },
+        "minimum_entry_requirements": [
+            {
+                "exam_qualification": "SPM",
+                "grade": "3 Credits",
+                "subject": "in the relevant subjects"
+            },
+            {
+                "exam_qualification": "O Level",
+                "grade": "3 Grade C",
+                "subject": "in the relevant subjects"
+            },
+            {
+                "exam_qualification": "UEC",
+                "grade": "3 Grade B",
+                "subject": "in the relevant subjects"
+            },
+            {
+                "exam_qualification": "SPM/O Level/UEC",
+                "grade": "Pass/Grade E (Pass)/Grade C",
+                "subject": "in English Language"
+            },
+            {
+                "exam_qualification": "SPM/O Level/UEC",
+                "grade": "Credit/Grade C/Grade B",
+                "subject": "in Mathematics or Additional Mathematics/Mathematics or Mathematics Additional/one mathematics subject"
+            }
+        ],
+        "academic_progression": "Graduates may be admitted into Year 2 of: Bachelor of Information Technology (Honours) in Software Systems Development, Bachelor of Information Technology (Honours) in Information Security, Bachelor of Information Systems (Honours) in Enterprise Information Systems, Bachelor of Software Engineering (Honours)"
+    },
+    {
+        "programme_name": "Diploma in Information Technology",
+        "campuses": [
+            "KL - Kuala Lumpur Main Campus",
+            "PG - Penang Branch Campus",
+            "PK - Perak Branch Campus",
+            "JH - Johor Branch Campus",
+            "PH - Pahang Branch",
+            "SB - Sabah Branch"
+        ],
+        "duration": "2 years",
+        "intake": "June",
+        "programme_outlines": [
+            "Problem Solving and Programming",
+            "Introduction to Interface Design",
+            "Information Technology and Systems",
+            "Web-Based Integrated Systems",
+            "Ethics in Computing",
+            "Web and Mobile Systems",
+            "Cloud Computing and Business",
+            "Systems Analysis and Design",
+            "Object-Oriented Programming Techniques",
+            "Operating Systems",
+            "Computer Architecture",
+            "Fundamentals of Computer Networks",
+            "Information Management",
+            "Database Development and Applications",
+            "Introduction to Cybersecurity",
+            "Calculus and Algebra",
+            "Probability and Statistics",
+            "Discrete Mathematics",
+            "Discrete Mathematical Structures",
+            "Industrial Training (20 weeks)"
+        ],
+        "estimated_fees": 19300,
+        "minimum_entry_requirements": [
+            {
+                "exam_qualification": "SPM",
+                "grade": "3 Credits",
+                "subject": "in the relevant subjects"
+            },
+            {
+                "exam_qualification": "O Level",
+                "grade": "3 Grade C",
+                "subject": "in the relevant subjects"
+            },
+            {
+                "exam_qualification": "UEC",
+                "grade": "3 Grade B",
+                "subject": "in the relevant subjects"
+            },
+            {
+                "exam_qualification": "SPM",
+                "grade": "Credit",
+                "subject": "Mathematics or Additional Mathematics"
+            },
+            {
+                "exam_qualification": "O Level",
+                "grade": "Grade C",
+                "subject": "Mathematics or Mathematics Additional"
+            },
+            {
+                "exam_qualification": "UEC",
+                "grade": "Grade B",
+                "subject": "in one mathematics subject"
+            },
+            {
+                "exam_qualification": "SPM",
+                "grade": "Pass",
+                "subject": "English Language"
+            },
+            {
+                "exam_qualification": "O Level",
+                "grade": "Grade E (Pass)",
+                "subject": "English Language"
+            },
+            {
+                "exam_qualification": "UEC",
+                "grade": "Grade C",
+                "subject": "English Language"
+            }
+        ],
+        "academic_progression": "Graduates may be admitted into Year 2 of: Bachelor of Information Technology (Honours) in Software Systems Development, Bachelor of Information Technology (Honours) in Information Security, Bachelor of Information Systems (Honours) in Enterprise Information Systems, Bachelor of Software Engineering (Honours)"
+    },
+    {
+        "Programme": {
+            "programme_name": "Bachelor of Software Engineering (Honours)",
+            "campuses": [
+                "KL - Kuala Lumpur Main Campus",
+                "PG - Penang Branch Campus"
+            ],
+            "duration": "3 years",
+            "intake": {
+                "Year 1 Intake": [
+                    "February (KL)",
+                    "June (KL, PG)",
+                    "November (KL)"
+                ],
+                "Year 2 Intake": [
+                    "June (KL, PG)"
+                ]
+            },
+            "programme_outlines": [
+                "Problem Solving and Programming",
+                "Database Management",
+                "Software Engineering",
+                "Computer Organisation and Architecture",
+                "Systems Analysis and Design",
+                "Operating Systems",
+                "Object-Oriented Programming",
+                "Data Structures and Algorithms",
+                "Fundamentals of Computer Networks",
+                "Artificial Intelligence",
+                "Software Testing",
+                "Software Quality and Measurement",
+                "Software Requirements Engineering",
+                "Software Design and Architecture",
+                "Software Engineering Ethics and Professionalism",
+                "Software Security and Safety",
+                "Software Project Management",
+                "Software Maintenance",
+                "Collaborative Development",
+                "Probability and Statistics",
+                "Discrete Mathematics",
+                "Project I",
+                "Project II",
+                "Industrial Training (6 months)"
+            ],
+            "electives": [
+                "Formal Methods for Software Engineering",
+                "Human Computer Interaction",
+                "Introduction to Internet Security",
+                "Web-Based Integrated Systems",
+                "Advanced Discrete Mathematics",
+                "Advanced Database Management",
+                "Mobile Application Development",
+                "Data Science",
+                "Cloud Computing",
+                "Agile Software Development",
+                "Blockchain Application Development",
+                "Image Processing"
+            ],
+            "estimated_fees": {
+                "Malaysian Student": 37800,
+                "International Student": 65700
+            },
+            "minimum_entry_requirements": [
+                {
+                    "exam_qualification": "STPM",
+                    "grade": "C",
+                    "subject": "2 relevant subjects"
+                },
+                {
+                    "exam_qualification": "A Level",
+                    "grade": "D",
+                    "subject": "2 relevant subjects"
+                },
+                {
+                    "exam_qualification": "UEC",
+                    "grade": "B",
+                    "subject": "5 relevant subjects"
+                },
+                {
+                    "exam_qualification": "Other IHL",
+                    "grade": "Relevant Foundation accredited by MQA OR Relevant Diploma (with minimum CGPA 2.5000)^ accredited by MQA",
+                    "subject": "SPM Credit/O Level Grade C in Mathematics/ UEC Grade B in one mathematics subject AND SPM Credit in Additional Mathematics/ O Level Grade C in Mathematics-Additional/ UEC Grade B in one mathematics subject"
+                },
+                {
+                    "exam_qualification": "TARUMT Student",
+                    "grade": "minimum CGPA 2.5",
+                    "subject": "Fondation in Computing or relevant Diploma in TARUMT"
+                }
+            ]
+        }
+    },
+    {
+        "Programme": {
+            "programme_name": "Bachelor of Software Engineering (Honours)",
+            "campuses": [
+                "KL - Kuala Lumpur Main Campus",
+                "PG - Penang Branch Campus"
+            ],
+            "duration": "3 years",
+            "intake": {
+                "Year 1": {
+                    "February": "KL",
+                    "June": "KL, PG",
+                    "November": "KL"
+                },
+                "Year 2": {
+                    "June": "KL, PG"
+                }
+            },
+            "programme_outlines": [
+                "Problem Solving and Programming",
+                "Database Management",
+                "Software Engineering",
+                "Computer Organisation and Architecture",
+                "Systems Analysis and Design",
+                "Operating Systems",
+                "Object-Oriented Programming",
+                "Data Structures and Algorithms",
+                "Fundamentals of Computer Networks",
+                "Artificial Intelligence",
+                "Software Testing",
+                "Software Quality and Measurement",
+                "Software Requirements Engineering",
+                "Software Design and Architecture",
+                "Software Engineering Ethics and Professionalism",
+                "Software Security and Safety",
+                "Software Project Management",
+                "Software Maintenance",
+                "Collaborative Development",
+                "Probability and Statistics",
+                "Discrete Mathematics",
+                "Project I",
+                "Project II",
+                "Industrial Training (6 months)"
+            ],
+            "electives": [
+                "Formal Methods for Software Engineering",
+                "Human Computer Interaction",
+                "Introduction to Internet Security",
+                "Web-Based Integrated Systems",
+                "Advanced Discrete Mathematics",
+                "Advanced Database Management",
+                "Mobile Application Development",
+                "Data Science",
+                "Cloud Computing",
+                "Agile Software Development",
+                "Blockchain Application Development",
+                "Image Processing"
+            ],
+            "estimated_fees": {
+                "Malaysian Student": 37800,
+                "International Student": 65700
+            },
+            "minimum_entry_requirements": [
+                {
+                    "exam_qualification": "STPM",
+                    "grade": "C",
+                    "subject": "2 relevant subjects"
+                },
+                {
+                    "exam_qualification": "A Level",
+                    "grade": "D",
+                    "subject": "2 relevant subjects"
+                },
+                {
+                    "exam_qualification": "UEC",
+                    "grade": "B",
+                    "subject": "5 relevant subjects"
+                },
+                {
+                    "exam_qualification": "Other IHL",
+                    "grade": "Relevant Foundation accredited by MQA OR Relevant Diploma with minimum CGPA 2.5000",
+                    "subject": "SPM Credit/O Level Grade C in Mathematics/ UEC Grade B in one mathematics subject AND SPM Credit in Additional Mathematics/ O Level Grade C in Mathematics-Additional/ UEC Grade B in one mathematics subject"
+                },
+                {
+                    "exam_qualification": "If you are TARUMT Student",
+                    "grade": "CGPA 2.5",
+                    "subject": "Fondation in Computing or relevant Diploma in TARUMT"
+                }
+            ]
+        }
+    },
+    {
+        "programme_name": "Bachelor of Computer Science (Honours) in Data Science",
+        "campuses": [
+            "KL - Kuala Lumpur Main Campus",
+            "KL (R/0613/6/0021)(02/29)(MQA/FA10784)",
+            "PG - Penang Branch Campus",
+            "PG (R/0613/6/0067)(06/29)(MQA/FA10813)"
+        ],
+        "duration": "3 years",
+        "intake": {
+            "Year 1": [
+                "February (KL)",
+                "June (KL, PG)",
+                "November (KL)"
+            ],
+            "Year 2": [
+                "June (KL, PG)"
+            ]
+        },
+        "programme_outlines": [
+            "Problem Solving and Programming",
+            "Database Management",
+            "Introduction to Computer Security",
+            "Probability and Statistics",
+            "System Analysis and Design",
+            "Discrete Mathematics",
+            "Fundamentals of Computer Networks",
+            "Computer Organisation and Architecture",
+            "Object-Oriented Programming",
+            "Operating Systems",
+            "Statistics for Data Science",
+            "Software Engineering",
+            "Data Science",
+            "Data Visualisation",
+            "Data Engineering",
+            "Machine Learning",
+            "Data Structures and Algorithms",
+            "Artificial Intelligence",
+            "Project I",
+            "Project II",
+            "Data Warehouse Technology",
+            "Industrial Training (24 weeks)",
+            "Algebra and Calculus",
+            "Advanced Discrete Mathematics",
+            "Natural Language Processing",
+            "Web-Based Integrated Systems",
+            "Internet of Things",
+            "Graphics Programming",
+            "Image Processing",
+            "Blockchain Application Development",
+            "Advanced Database Management",
+            "Mobile Application Development",
+            "Cloud Computing",
+            "Distributed Systems and Parallel Computing",
+            "Japanese Language I",
+            "French Language I",
+            "Korean Language I",
+            "English for Tertiary Studies",
+            "Falsafah dan Isu Semasa",
+            "Academic English",
+            "Penghayatan Etika dan Peradaban",
+            "English for Career Preparation",
+            "Entrepreneurship/ Bahasa Kebangsaan A",
+            "Integrity and Anti Corruption",
+            "Co-curricular"
+        ],
+        "estimated_fees": 37500,
+        "minimum_entry_requirements": [
+            {
+                "exam_qualification": "STPM",
+                "grade": "C",
+                "subject": "2 relevant subjects"
+            },
+            {
+                "exam_qualification": "A Level",
+                "grade": "D",
+                "subject": "2 relevant subjects"
+            },
+            {
+                "exam_qualification": "UEC",
+                "grade": "B",
+                "subject": "5 relevant subjects"
+            },
+            {
+                "exam_qualification": "Other IHL",
+                "grade": "Relevant Foundation accredited by MQA OR Relevant Diploma (with minimum CGPA 2.5000)",
+                "subject": "SPM Credit/O Level Grade C in Mathematics/ UEC Grade B in one mathematics subject AND SPM Credit in Additional Mathematics/ O Level Grade C in Mathematics-Additional/ UEC Grade B in one mathematics subject"
+            },
+            {
+                "exam_qualification": "TARUMT Student from Fondation in Computing or relevant Diploma in TARUMT",
+                "grade": "minimum CGPA 2.5"
+            }
+        ]
+    },
+    {
+        "programme_name": "Bachelor of Computer Science (Honours) in Data Science",
+        "campuses": [
+            "KL - Kuala Lumpur Main Campus",
+            "PG - Penang Branch Campus"
+        ],
+        "duration": "3 years",
+        "intake": {
+            "Year 1": {
+                "February": "KL",
+                "June": "KL, PG",
+                "November": "KL"
+            },
+            "Year 2": {
+                "June": "KL, PG"
+            }
+        },
+        "programme_outlines": [
+            "Problem Solving and Programming",
+            "Database Management",
+            "Introduction to Computer Security",
+            "Probability and Statistics",
+            "System Analysis and Design",
+            "Discrete Mathematics",
+            "Fundamentals of Computer Networks",
+            "Computer Organisation and Architecture",
+            "Object-Oriented Programming",
+            "Operating Systems",
+            "Statistics for Data Science",
+            "Software Engineering",
+            "Data Science",
+            "Data Visualisation",
+            "Data Engineering",
+            "Machine Learning",
+            "Data Structures and Algorithms",
+            "Artificial Intelligence",
+            "Project I",
+            "Project II",
+            "Data Warehouse Technology",
+            "Industrial Training (24 weeks)",
+            "Algebra and Calculus",
+            "Advanced Discrete Mathematics",
+            "Natural Language Processing",
+            "Web-Based Integrated Systems",
+            "Internet of Things",
+            "Graphics Programming",
+            "Image Processing",
+            "Blockchain Application Development",
+            "Advanced Database Management",
+            "Mobile Application Development",
+            "Cloud Computing",
+            "Distributed Systems and Parallel Computing",
+            "Japanese Language I",
+            "French Language I",
+            "Korean Language I"
+        ],
+        "estimated_fees": 37500,
+        "minimum_entry_requirements": [
+            {
+                "exam_qualification": "STPM",
+                "grade": "C",
+                "subject": "2 relevant subjects"
+            },
+            {
+                "exam_qualification": "A Level",
+                "grade": "D",
+                "subject": "2 relevant subjects"
+            },
+            {
+                "exam_qualification": "UEC",
+                "grade": "B",
+                "subject": "5 relevant subjects"
+            },
+            {
+                "exam_qualification": "Other IHL",
+                "grade": "Relevant Foundation accredited by MQA OR Relevant Diploma (with minimum CGPA 2.5000)",
+                "subject": "SPM Credit/O Level Grade C in Mathematics/ UEC Grade B in one mathematics subject AND SPM Credit in Additional Mathematics/ O Level Grade C in Mathematics-Additional/ UEC Grade B in one mathematics subject"
+            },
+            {
+                "exam_qualification": "TARUMT Student",
+                "grade": "minimum CGPA 2.5",
+                "subject": "Fondation in Computing or relevant Diploma in TARUMT"
+            }
+        ]
+    }
+]
