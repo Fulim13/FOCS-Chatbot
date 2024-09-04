@@ -20,11 +20,14 @@ RETRY_DELAY = 2  # Delay between retries in seconds
 
 @api_view(['POST'])
 def send_some_data(request):
+    load_dotenv()
+
     output_file = Path(settings.BASE_DIR) / "backend" / \
         "data" / "extracted_programme.json"
 
     if os.path.exists(output_file):
-        model = ChatMistralAI(model="mistral-small-latest")
+        model = ChatMistralAI(model="mistral-small-latest",
+                              mistral_api_key=os.environ["MISTRAL_API_KEY"])
         question = request.data.get('message', '')
 
         data = json.loads(Path(output_file).read_text())

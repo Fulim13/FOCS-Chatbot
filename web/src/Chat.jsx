@@ -30,7 +30,12 @@ function Chat() {
     // Add the outgoing message to the data immediately
     const outgoingMessage = {
       direction: "outgoing",
-      message: message || inputMessage,
+      message:
+        typeof message === "string"
+          ? message
+          : typeof inputMessage === "string"
+          ? inputMessage
+          : JSON.stringify(inputMessage),
       position: "single",
       sender: "You",
       sentTime: new Date().toLocaleTimeString(),
@@ -52,7 +57,6 @@ function Chat() {
     })
       .then((res) => res.json())
       .then((response) => {
-        console.log(response); // Log the response to inspect its structure
         // Add the incoming response to the data
         const incomingMessage = {
           direction: "incoming",
