@@ -1,0 +1,29 @@
+All the Programme Offered
+All available programs are listed.
+Every program that is offered is included.
+A comprehensive list of all offered programs.
+Every program available for enrollment is detailed.
+All programs currently available are shown.
+The full range of offered programs is provided.
+Each program being offered is listed here.
+All the programs that you can enroll in are listed.
+A complete list of all the programs on offer.
+All the programs available for selection are displayed.
+
+
+programmes = [
+    "Foundation in Computing",
+    "Diploma in Computer Science",
+    "Diploma in Information Technology",
+    "Bachelor of Software Engineering (Honours)",
+    "Bachelor of Computer Science (Honours) in Data Science",
+    "Bachelor of Computer Science (Honours) in Interactive Software Technology",
+    "Bachelor of Information Technology (Honours) in Software Systems Development",
+    "Bachelor of Information Technology (Honours) in Information Security",
+    "Master of Information Technology",
+    "Master of Computer Science",
+    "Doctor of Philosophy (Information Technology)",
+    "Doctor of Philosophy in Computer Science"
+]
+
+FOCS Website: https://focs.tarc.edu.my/programmes

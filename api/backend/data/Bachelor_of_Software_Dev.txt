@@ -1,0 +1,119 @@
+Name: Bachelor of Information Technology (Honours) in Software Systems Development
+
+Description/Programme Overview: The aim of this programme is to produce and equip graduates with in-depth knowledge and skills that are essential to work as professionals in the software systems development and computer networking sectors.
+
+Students graduating from this programme will be capable of developing software systems in various platforms to fulfill the needs and requirements from organisations using appropriate software development methodologies and software project management techniques. In addition, the students will also be capable to design, configure and maintain computer networks in organisations.
+
+Students will have an opportunity to work with the industry through their 6 months industrial training and to carry out real-life projects in software systems development, network communications or database management. All such training will add value to their qualification and later to their employment opportunities.
+
+Campuses:
+KL - Kuala Lumpur Main Campus
+PG - Penang Branch Campus
+PK - Perak Branch Campus
+JH - Johor Branch Campus
+PH - Pahang Branch
+SB - Sabah Branch
+
+Intake:
+Year 1 Intake:
+
+February (KL);
+
+June (KL, PG, PK, JH, PH, SB);
+
+November (KL, PG, PK, PH)
+
+
+Year 2 Intake:
+
+June (KL, PG, PK, JH, PH, SB);
+
+November (KL, PG)
+
+
+Duration: 3 years
+
+Programme Outline/Main Course:
+"MainCourses": [
+      "IT Fundamentals",
+      "Systems Analysis and Design",
+      "Integrative Programming",
+      "Fundamentals of Computer Networks",
+      "Human Computer Interaction",
+      "Cloud Computing",
+      "Problem Solving and Programming",
+      "Database Management",
+      "Object-Oriented Programming",
+      "Object-Oriented Analysis and Design",
+      "Data Structures and Algorithms",
+      "Mobile Application Development",
+      "Switching and Routing Technologies",
+      "Enterprise Networking",
+      "Software Engineering",
+      "Artificial Intelligence",
+      "Internet of Things",
+      "Advanced Database Management",
+      "Software Project Management",
+      "Computer Organisation and Architecture",
+      "Discrete Structures",
+      "Operating Systems",
+      "Web-Based Integrated Systems",
+      "Information Technology Infrastructure",
+      "Web and Mobile Systems",
+      "Introduction to Internet Security",
+      "Software Quality Assurance and Testing",
+      "Project I",
+      "Project II",
+      "Industrial Training (6 months)"
+    ],
+    "MPUCourses": [
+      "English for Tertiary Studies",
+      "Falsafah dan Isu Semasa",
+      "Academic English",
+      "Penghayatan Etika dan Peradaban",
+      "English for Career Preparation",
+      "Entrepreneurship",
+      "Bahasa Kebangsaan A",
+      "Integrity and Anti Corruption",
+      "Co-curricular"
+    ]
+
+
+Career Prospects:
+Programmers
+
+Web Developers
+
+Multimedia Developers
+
+Mobile Application Developers
+
+Systems Analysts
+
+Software Engineers
+
+Database Administrators
+
+Network Engineers
+
+IT Consultants
+
+IT Managers
+
+IoT Developers
+
+
+Estimated Total Fees :
+RM37,800 (Malaysian Student)
+RM65,700 (International Student)
+
+Entry Requirements:
+"TARUMT/ TARUC": Foundation in Computing OR Relevant Diploma (with minimum CGPA 2.50000)
+
+"STPM": Grade C in 2 relevant subjects AND SPM Credit in Mathematics AND SPM Pass in English Language
+
+"A Level": Grade D in 2 relevant subjects AND O Level Grade C in Mathematics AND O Level Grade E (Pass) in English Language
+
+"UEC": Grade B in 5 relevant subjects AND UEC Grade B in one mathematics subject AND UEC Grade C in English Language
+
+url: https://focs.tarc.edu.my/programmes/bachelor-degree/bachelor-of-information-technology-honours-in-software-systems-deve-rsd

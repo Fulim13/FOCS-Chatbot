@@ -1,0 +1,103 @@
+Name: Bachelor of Computer Science (Honours) in Interactive Software Technology
+
+Description/Programme Overview: Graduates of this programme will be equipped with the technical knowledge and skills in computer science, and a further focus on the design and development of interactive software. The widespread use of interactive multimedia across all digital platforms ensure that the skill sets developed during the course of study of this programme are highly sought after upon graduation. These highly adaptable skills can be utilised for the development of mobile applications, video games, simulators, data visualisation, VR/AR/MR experiences, educational and training materials, as well as other interactive multimedia applications.
+
+Students will study courses related to game development and programming, as well as game design and graphics programming. Students will also develop a strong foundation in computer science fields like artificial intelligence and human computer interaction.
+
+Students will have an opportunity to work with the industry through their 6 months industrial training and carry out real-life projects on interactive software development. All such training will add value to their employment opportunities and career development.
+
+Campuses: KL - Kuala Lumpur Main Campus
+
+Intake:
+Year 1 Intake: June
+
+Year 2 Intake: June
+
+Duration: 3 years
+
+
+Programme Outline/Main Course:
+"MainCourses": [
+      "Problem Solving and Programming",
+      "Computer Game Studies",
+      "Database Management",
+      "Computer Organisation and Architecture",
+      "Object-Oriented Programming",
+      "Object-Oriented Analysis and Design",
+      "Operating Systems",
+      "Data Structures and Algorithms",
+      "Software Engineering",
+      "Graphics Programming",
+      "Computer Game Programming",
+      "Social and Professional Issues",
+      "Artificial Intelligence",
+      "Fundamentals of Computer Networks",
+      "Human Computer Interaction",
+      "Discrete Mathematics",
+      "Probability and Statistics",
+      "Mathematics for Games Technology",
+      "Systems Analysis and Design",
+      "3D Game Development",
+      "Virtual Reality",
+      "Computer Games Technology",
+      "Computer Game Design",
+      "Software Development Fundamentals",
+      "Mobile Application Development",
+      "Parallel and Distributed Computing",
+      "Information Assurance and Security",
+      "Project I",
+      "Project II",
+      "Industrial Training (6 months)"
+    ],
+    "MPUCourses": [
+      "English for Tertiary Studies",
+      "Falsafah dan Isu Semasa",
+      "Academic English",
+      "Penghayatan Etika dan Peradaban",
+      "English for Career Preparation",
+      "Entrepreneurship",
+      "Bahasa Kebangsaan A",
+      "Integrity and Anti Corruption",
+      "Co-curricular"
+    ]
+
+
+Career Prospects:
+Games Designers
+
+Games Programmers
+
+Games Software Engineers
+
+Games Producers
+
+Games Testers
+
+Technical Lead
+
+Web Designers
+
+Multimedia Developers
+
+Software Developers
+
+Mobile Application Developers
+
+Systems Analysts
+
+
+
+Estimated Fees:
+RM38,400 (Malaysian Student)
+RM66,600 (International Student)
+
+Entry Requirements:
+"TARUMT/ TARUC": Foundation in Computing OR Relevant Diploma (with minimum CGPA 2.50000)
+
+"STPM": Grade C in 2 relevant subjects AND SPM Credit in Additional Mathematics AND SPM Pass in English Language
+
+"A Level": Grade D in 2 relevant subjects AND O Level Grade C in Mathematics-Additional AND O Level Grade E (Pass) in English Language
+
+"UEC": Grade B in 5 relevant subjects AND UEC Grade B in one mathematics subject AND UEC Grade C in English Language
+
+url: https://focs.tarc.edu.my/programmes/bachelor-degree/bachelor-of-computer-science-honours-in-interactive-software-techno-rst

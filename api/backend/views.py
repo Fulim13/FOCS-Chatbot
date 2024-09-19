@@ -33,7 +33,7 @@ def send_some_data(request):
     # data = json.loads(Path(output_file).read_text())
     # previous_context = str(memory.load_memory_variables({}))
 
-    index_name = "focs-index2"
+    index_name = "focs-index11"
     pinecone_api_key = os.environ.get("PINECONE_API_KEY")
     pc = Pinecone(api_key=pinecone_api_key)
     index = pc.Index(index_name)
@@ -56,7 +56,22 @@ def send_some_data(request):
          "If the context does not provide enough information to answer the question directly, "
          "respond by saying you don't know and provide the following website URL for further assistance: "
          "<a href='https://focs.tarc.edu.my/programmes'>FOCS Programmes</a>. "
-         "Encourage the student to contact FOCS for more information."
+         "Encourage the student to contact FOCS for more information. "
+         "If the user asks about the programs offered, provide the following information:\n"
+         "Here is a list of programs offered by FOCS:\n\n"
+         "1. Foundation in Computing\n"
+         "2. Diploma in Computer Science\n"
+         "3. Diploma in Information Technology\n"
+         "4. Bachelor of Software Engineering (Honours)\n"
+         "5. Bachelor of Computer Science (Honours) in Data Science\n"
+         "6. Bachelor of Computer Science (Honours) in Interactive Software Technology\n"
+         "7. Bachelor of Information Technology (Honours) in Software Systems Development\n"
+         "8. Bachelor of Information Technology (Honours) in Information Security\n"
+         "9. Master of Information Technology\n"
+         "10. Master of Computer Science\n"
+         "11. Doctor of Philosophy (Information Technology)\n"
+         "12. Doctor of Philosophy in Computer Science\n\n"
+         "For more details, please visit the FOCS website: <a href='https://focs.tarc.edu.my/programmes'>FOCS Programmes</a>."
          ),
         ("human",
          "Question: {question}\n"

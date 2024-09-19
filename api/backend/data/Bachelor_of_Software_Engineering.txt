@@ -1,123 +1,79 @@
-Bachelor of Software Engineering (Honours)
+Name: Bachelor of Software Engineering (Honours)
 
-Programme Overview
+Description/Programme Overview: Graduates of this programme will be able to develop, manage and maintain high quality software in a systematic, controlled and efficient manner through software engineering methodology inclusive of software requirements engineering, software design, software testing, software quality, software project management, software security & safety, software maintenance, and software engineering ethics & professionalism.
 
-Graduates of this programme will be able to develop, manage and maintain high quality software in a systematic, controlled and efficient manner through software engineering methodology inclusive of software requirements engineering, software design, software testing, software quality, software project management, software security & safety, software maintenance, and software engineering ethics & professionalism.
+In addition, graduates of this programme have in-depth knowledge and skills in formal methods in software engineering, human computer interaction, mobile application development, web-based integrated systems, blockchain application development, advanced database management, agile software development, data science, image processing, cloud computing, internet security, advanced discrete mathematics as part of their elective choices. And also, graduates of this programme will have powerful skills of technical, process, communication, and teamwork to be instantaneously productive in the software engineering industry.
 
-In addition, graduates of this programme have in-depth knowledge and skills in formal methods in software engineering, human computer interaction, mobile application development, web-based integrated systems, blockchain application development, advanced database management, agile software development, data science, image processing, cloud computing, internet security, advanced discrete mathematics as part of their elective choices. And also, graduates of this programme will have powerful skills of technical, process, communication, and teamwork to be instantaneously productive in the software engineering industry. 
-
-Students will have an opportunity to work with the industry through their 6 months industrial training and to carry out real-life projects on software engineering. All such training will add value to their qualification and later to their employment opportunities. 
+Students will have an opportunity to work with the industry through their 6 months industrial training and to carry out real-life projects on software engineering. All such training will add value to their qualification and later to their employment opportunities.
 
 Campuses:
+KL - Kuala Lumpur Main Campus
+PG - Penang Branch Campus
 
-KL - Kuala Lumpur Main Campus 
-KL (R2/0612/6/0375)(09/28)(MQA/FA3930)
-
-PG - Penang Branch Campus 
-PG (R/0612/6/0011)(10/29)(MQA/FA10814)
 
 Intake:
-
-Year 1 Intake: 
-
-February (KL); June (KL, PG); November (KL)
+Year 1 Intake: February (KL); June (KL, PG); November (KL)
+Year 2 Intake: June (KL, PG)
 
 
-Year 2 Intake: 
-
-June (KL, PG)
+Duration: 3 years
 
 
-Duration:
+Programme Outline/Main Course:
+"MainCourses": [
+      "Problem Solving and Programming",
+      "Database Management",
+      "Software Engineering",
+      "Computer Organisation and Architecture",
+      "Systems Analysis and Design",
+      "Operating Systems",
+      "Object-Oriented Programming",
+      "Data Structures and Algorithms",
+      "Fundamentals of Computer Networks",
+      "Artificial Intelligence",
+      "Software Testing",
+      "Software Quality and Measurement",
+      "Software Requirements Engineering",
+      "Software Design and Architecture",
+      "Software Engineering Ethics and Professionalism",
+      "Software Security and Safety",
+      "Software Project Management",
+      "Software Maintenance",
+      "Collaborative Development",
+      "Probability and Statistics",
+      "Discrete Mathematics",
+      "Project I",
+      "Project II",
+      "Industrial Training (6 months)"
+    ],
+    "Electives": [
+      "Formal Methods for Software Engineering",
+      "Human Computer Interaction",
+      "Introduction to Internet Security",
+      "Web-Based Integrated Systems",
+      "Advanced Discrete Mathematics",
+      "Advanced Database Management",
+      "Mobile Application Development",
+      "Data Science",
+      "Cloud Computing",
+      "Agile Software Development",
+      "Blockchain Application Development",
+      "Image Processing",
+    ]
+    "MPU Subject":
+    [
+      "English for Tertiary Studies",
+      "Falsafah dan Isu Semasa",
+      "Academic English",
+      "Penghayatan Etika dan Peradaban",
+      "English for Career Preparation",
+      "Entrepreneurship",
+      "Bahasa Kebangsaan A",
+      "Integrity and Anti Corruption",
+      "Co-curricular"
+    ]
 
-3 years
-
-
-Programme Outline
-
-Problem Solving and Programming
-
-Database Management
-
-Software Engineering
-
-Computer Organisation and Architecture
-
-Systems Analysis and Design
-
-Operating Systems
-
-Object-Oriented Programming
-
-Data Structures and Algorithms
-
-Fundamentals of Computer Networks
-
-Artificial Intelligence
-
-Software Testing
-
-Software Quality and Measurement
-
-Software Requirements Engineering
-
-Software Design and Architecture
-
-Software Engineering Ethics and Professionalism
-
-Software Security and Safety
-
-Software Project Management
-
-Software Maintenance
-
-Collaborative Development
-
-Probability and Statistics
-
-Discrete Mathematics
-
-Project I
-
-Project II
-
-Industrial Training (6 months)
-
-
-
-Electives (Choose 6):
-
-Formal Methods for Software Engineering
-
-Human Computer Interaction
-
-Introduction to Internet Security
-
-Web-Based Integrated Systems
-
-Advanced Discrete Mathematics
-
-Advanced Database Management
-
-Mobile Application Development
-
-Data Science
-
-Cloud Computing
-
-Agile Software Development
-
-Blockchain Application Development
-
-Image Processing
-
-
-
-Language, Mata Pelajaran Pengajian Umum (MPU) and Co-curricular Courses:
-
-English for Tertiary Studies, Falsafah dan Isu Semasa, Academic English, Penghayatan Etika dan Peradaban, English for Career Preparation, Entrepreneurship/ Bahasa Kebangsaan A, Integrity and Anti Corruption, Co-curricular
-
-Career Prospects
+Career Prospects:
 
 Software Engineers
 
@@ -142,28 +98,18 @@ IT and Project Managers
 Programmers
 
 
-Fees & Financial Aid
 
-Estimated Total Fees : RM37,800 (Malaysian Student), RM65,700 (International Student)
-
+Estimated Total Fees :
+RM37,800 (Malaysian Student)
+RM65,700 (International Student)
 
 Minimum Requirement
-[
-(STPM - Grade C in 2 relevant subjects)
-OR
-(A Level - Grade D in 2 relevant subjects)
-OR
-(UEC - Grade B in 5 relevant subjects)
-OR
-(Other IHL - Relevant Foundation accredited by MQA OR Relevant Diploma
-(with minimum CGPA 2.5000)^ accredited by MQA AND SPM Credit/O Level Grade C in Mathematics/ UEC Grade B in one mathematics subject
-AND
-(SPM Credit in Additional Mathematics/
-O Level Grade C in Mathematics-Additional/
-UEC Grade B in one mathematics subject)
-]
-OR 
-(if you are TARUMT Student from Fondation in Computing or relevant Diploma in TARUMT with minimum CGPA 2.5)
+"TARUMT/ TARUC": Foundation in Computing OR Relevant Diploma (with minimum CGPA 2.50000)
 
+"STPM": Grade C in 2 relevant subjects AND SPM Credit in Additional Mathematics AND SPM Pass in English Language
 
+"A Level": Grade D in 2 relevant subjects AND O Level Grade C in Mathematics-Additional AND O Level Grade E (Pass) in English Language
 
+"UEC": Grade B in 5 relevant subjects AND UEC Grade B in one mathematics subject AND UEC Grade C in English Language
+
+url: https://focs.tarc.edu.my/programmes/bachelor-degree/bachelor-of-software-engineering-honours-rsw

@@ -1,135 +1,100 @@
-Bachelor of Computer Science (Honours) in  Data Science
+Name: Bachelor of Computer Science (Honours) in  Data Science
 
-Programme Overview
+Description/Programme Overview:
 
-This programme is designed to train students in both computer science and data science, which prepares them well for data professionals or data scientist career pathway. Graduates of this programme are highly demanded in the increasingly data-driven world where their main role is to make sense of big data to improve business processes, optimise resources, increase profits, increase customer satisfaction, personalised experience, automation, and so on. 
+This programme is designed to train students in both computer science and data science, which prepares them well for data professionals or data scientist career pathway. Graduates of this programme are highly demanded in the increasingly data-driven world where their main role is to make sense of big data to improve business processes, optimise resources, increase profits, increase customer satisfaction, personalised experience, automation, and so on.
 
-Artificial Intelligence, Machine Learning, Data Science, Data Visualisation, Data Engineering, Data Warehouse Technology and Statistics for Data Science are some of the specialisation courses covered in this programme in addition to the core computing courses such as Programming, Database Management and Computer Networks. 
+Artificial Intelligence, Machine Learning, Data Science, Data Visualisation, Data Engineering, Data Warehouse Technology and Statistics for Data Science are some of the specialisation courses covered in this programme in addition to the core computing courses such as Programming, Database Management and Computer Networks.
 
-Students will have an opportunity to work with the industry through their 6 months industrial training and carry out real-life projects on data science and computer science. All such training will add value to their qualification and increase their employment opportunities. Upon completion of this program, the students will also obtain SAS Joint Certificate specialised in Data Science and Machine Learning. 
+Students will have an opportunity to work with the industry through their 6 months industrial training and carry out real-life projects on data science and computer science. All such training will add value to their qualification and increase their employment opportunities. Upon completion of this program, the students will also obtain SAS Joint Certificate specialised in Data Science and Machine Learning.
 
 Campuses:
-
 KL - Kuala Lumpur Main Campus
-KL (R/0613/6/0021)(02/29)(MQA/FA10784)
-
 PG - Penang Branch Campus
-PG (R/0613/6/0067)(06/29)(MQA/FA10813)
 
 Intake:
 
-Year 1 Intake: 
-
+Year 1 Intake:
 February (KL);  June (KL, PG);  	November (KL)
 
 
-Year 2 Intake: 
-
+Year 2 Intake:
 June (KL, PG)
 
-Duration:
 
-3 years
-
-
-Programme Outline
-
-Problem Solving and Programming
-
-Database Management
-
-Introduction to Computer Security
-
-Probability and Statistics
-
-System Analysis and Design
-
-Discrete Mathematics
-
-Fundamentals of Computer Networks
-
-Computer Organisation and Architecture
-
-Object-Oriented Programming
-
-Operating Systems
-
-Statistics for Data Science
-
-Software Engineering
-
-Data Science
-
-Data Visualisation
-
-Data Engineering
-
-Machine Learning
-
-Data Structures and Algorithms
-
-Artificial Intelligence
-
-Project I
-
-Project II
-
-Data Warehouse Technology
-
-Industrial Training (24 weeks)
+Duration: 3 years
 
 
-Elective 1 (Choose 1):
+Programme Outline/Main Course:
+"MainCourses": [
+      "Problem Solving and Programming",
+      "Database Management",
+      "Introduction to Computer Security",
+      "Probability and Statistics",
+      "System Analysis and Design",
+      "Discrete Mathematics",
+      "Fundamentals of Computer Networks",
+      "Computer Organisation and Architecture",
+      "Object-Oriented Programming",
+      "Operating Systems",
+      "Statistics for Data Science",
+      "Software Engineering",
+      "Data Science",
+      "Data Visualisation",
+      "Data Engineering",
+      "Machine Learning",
+      "Data Structures and Algorithms",
+      "Artificial Intelligence",
+      "Project I",
+      "Project II",
+      "Data Warehouse Technology",
+      "Industrial Training (24 weeks)"
+    ],
+    "Electives": {
+      "Elective1": [
+        "Algebra and Calculus",
+        "Advanced Discrete Mathematics"
+      ],
+      "Elective2": [
+        "Natural Language Processing",
+        "Web-Based Integrated Systems"
+      ],
+      "Elective3": [
+        "Internet of Things",
+        "Graphics Programming"
+      ],
+      "Elective4": [
+        "Image Processing",
+        "Blockchain Application Development"
+      ],
+      "Elective5": [
+        "Advanced Database Management",
+        "Mobile Application Development"
+      ],
+      "Elective6": [
+        "Cloud Computing",
+        "Distributed Systems and Parallel Computing"
+      ],
+      "FreeElectives": [
+        "Japanese Language I",
+        "French Language I",
+        "Korean Language I"
+      ]
+    },
+    "MPUSubjects": [
+      "English for Tertiary Studies",
+      "Falsafah dan Isu Semasa",
+      "Academic English",
+      "Penghayatan Etika dan Peradaban",
+      "English for Career Preparation",
+      "Entrepreneurship",
+      "Bahasa Kebangsaan A",
+      "Integrity and Anti Corruption",
+      "Co-curricular"
+    ]
 
-Algebra and Calculus
 
-Advanced Discrete Mathematics
-
-Elective 2 (Choose 1):
-
-Natural Language Processing
-
-Web-Based Integrated Systems
-
-Elective 3 (Choose 1):
-
-Internet of Things
-
-Graphics Programming
-
-Elective 4 (Choose 1):
-
-Image Processing
-
-Blockchain Application Development
-
-Elective 5 (Choose 1):
-
-Advanced Database Management
-
-Mobile Application Development
-
-Elective 6 (Choose 1):
-
-Cloud Computing
-
-Distributed Systems and Parallel Computing
-
-Free Electives (Choose 1):
-
-Japanese Language I
-
-French Language I
-
-Korean Language I
-
-
-Language, Mata Pelajaran Pengajian Umum (MPU) and Co-curricular Courses:
-
-English for Tertiary Studies, Falsafah dan Isu Semasa, Academic English, Penghayatan Etika dan Peradaban, English for Career Preparation, Entrepreneurship/ Bahasa Kebangsaan A, Integrity and Anti Corruption, Co-curricular
-
-
-Career Prospects
+Career Prospects:
 
 Data Scientists
 
@@ -147,26 +112,19 @@ Computer Science Researchers
 
 Machine Learning Engineers
 
-Fees & Financial Aid
 
-Estimated Total Fees : RM37,500 (Malaysian Student), RM65,200 (International Student)
+Estimated Total Fees :
+RM37,500 (Malaysian Student)
+RM65,200 (International Student)
 
-The estimated total fees may vary by 10%
 
 Minimum Requirement
-[
-(STPM - Grade C in 2 relevant subjects)
-OR
-(A Level - Grade D in 2 relevant subjects)
-OR
-(UEC - Grade B in 5 relevant subjects)
-OR
-(Other IHL - Relevant Foundation accredited by MQA OR Relevant Diploma
-(with minimum CGPA 2.5000)^ accredited by MQA AND SPM Credit/O Level Grade C in Mathematics/ UEC Grade B in one mathematics subject
-AND
-(SPM Credit in Additional Mathematics/
-O Level Grade C in Mathematics-Additional/
-UEC Grade B in one mathematics subject)
-]
-OR 
-(if you are TARUMT Student from Fondation in Computing or relevant Diploma in TARUMT with minimum CGPA 2.5)
+"TARUMT/ TARUC": Foundation in Computing OR Relevant Diploma (with minimum CGPA 2.50000)
+
+"STPM": Grade C in 2 relevant subjects AND SPM Credit in Additional Mathematics AND SPM Pass in English Language
+
+"A Level": Grade D in 2 relevant subjects AND O Level Grade C in Mathematics-Additional AND O Level Grade E (Pass) in English Language
+
+"UEC": Grade B in 5 relevant subjects AND UEC Grade B in one mathematics subject AND UEC Grade C in English Language
+
+url: https://focs.tarc.edu.my/programmes/bachelor-degree/bachelor-of-computer-science-honours-in-data-science-rds

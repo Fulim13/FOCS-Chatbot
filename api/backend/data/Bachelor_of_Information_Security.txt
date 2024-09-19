@@ -1,0 +1,102 @@
+Name: Bachelor of Information Technology (Honours) in Information Security
+
+Description/Programme Overview: This programme is designed to equip students with technical abilities and knowledge of the information security in the areas of network and Internet Security, Information Assurance and Governance, Systems Administration and secure software development besides giving students the opportunity to learn and explore various penetration testing, vulnerability assessment, forensics tools and techniques. Students will learn how to prevent, detect and defend organisations’ assets from internal and external threats.
+
+Students will also have an opportunity to work with information security related industry through their 6 months industrial training and to carry out real-life projects which are relevant to information security domains. Such training will add value to their qualification and later to their employment opportunities and career development.
+
+Campuses: KL - Kuala Lumpur Main Campus
+
+Intake:
+Year 1 Intake: June, November
+
+Year 2 Intake: June, November
+
+Duration: 3 years
+
+Programme Outline/Main Course:
+    "MainCourses": [
+      "Problem Solving and Programming",
+      "Database Management",
+      "Computer Organisation and Architecture",
+      "IT Fundamentals",
+      "Systems Analysis and Design",
+      "Discrete Structures",
+      "Fundamentals of Computer Networks",
+      "Operating Systems",
+      "Object-Oriented Programming",
+      "Human Computer Interaction",
+      "Object-Oriented Analysis and Design",
+      "Switching and Routing Technologies",
+      "Information Technology Infrastructure",
+      "Web and Mobile Systems",
+      "Introduction to Internet Security",
+      "Advanced Database Management",
+      "Integrative Programming",
+      "Cloud Computing",
+      "Software Project Management",
+      "Project I",
+      "Project II",
+      "Industrial Training (6 months)",
+      "Web Design and Development",
+      "Artificial Intelligence",
+      "Information Assurance and Security",
+      "Enterprise Networking",
+      "Software Security",
+      "Digital Forensics",
+      "Vulnerability Assessment and Penetration Testing"
+    ],
+    "FreeElectives": [
+      "Japanese Language I",
+      "French Language I",
+      "Korean Language I"
+    ],
+    "MPUCourses": [
+      "English for Tertiary Studies",
+      "Falsafah dan Isu Semasa",
+      "Academic English",
+      "Penghayatan Etika dan Peradaban",
+      "English for Career Preparation",
+      "Entrepreneurship",
+      "Bahasa Kebangsaan A",
+      "Integrity and Anti Corruption",
+      "Co-curricular"
+    ]
+
+Career Prospects:
+Information Security Analysts
+
+Information Security Consultants
+
+Information Security Managers
+
+Information Security Engineers
+
+Information Security Administrators
+
+Information Security Auditors
+
+Forensics Analysts
+
+Forensics Investigators
+
+Security Software Developers
+
+Mobile Application Developers
+
+Network Security Engineers
+
+Estimated Total Fees :
+RM37,800 (Malaysian Student)
+RM65,700 (International Student)
+
+Entry Requirements:
+"TARUMT/ TARUC": Foundation in Computing OR Relevant Diploma (with minimum CGPA 2.50000)
+
+"STPM": Grade C in 2 relevant subjects AND SPM Credit in Mathematics AND SPM Pass in English Language
+
+"A Level": Grade D in 2 relevant subjects AND O Level Grade C in Mathematics AND O Level Grade E (Pass) in English Language
+
+"UEC": Grade B in 5 relevant subjects AND UEC Grade B in one mathematics subject AND UEC Grade C in English Language
+
+
+url: https://focs.tarc.edu.my/programmes/bachelor-degree/bachelor-of-information-technology-honours-in-information-security-ris

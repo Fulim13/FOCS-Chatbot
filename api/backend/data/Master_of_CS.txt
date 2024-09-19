@@ -1,0 +1,71 @@
+Name: Master of Computer Science
+
+Description/Programme Overview: The Master of Computer Science programme is for those who have an interest to advance their career in research and industry that requires professionals to be equipped with innovative knowledge, research skills, high-order thinking skills and needed soft skills in the computer science areas to produce new knowledge or technology that will be the catalyst of the digital economy. Students of this programme have the opportunity to explore and conduct computer science research in the following areas but not limited to Artificial Intelligence, Computer Vision, and Big Data Analytics, which as far as possible to be applied to various real-life industries including Smart Campus applications, Industry 4.0, Agriculture 4.0 and any innovative commercial-value solutions.
+
+Campuses: KL Main Campus
+
+Intake:
+Rolling Intake (throughout the year)
+
+Duration:
+Full-time (Malaysian & International students) - 2 years
+
+Part-time (Malaysian students ONLY) - 3 years
+
+Programme Outline/Main Course:
+1. Research Methodology
+2. Master Research
+3. Special Topic
+
+Career Prospects:
+Researcher/ R&D Analyst
+
+Academician
+
+Consultant
+
+Software Engineer/ Software Research Engineer/ Software Developer
+
+Software Analyst
+
+Software Designer
+
+Technical Lead/ Project Leader
+
+Solution Architect
+
+Data Scientist/ Quality Data Analyst
+
+
+Estimated Fees: Not sure need to contact FOCS
+
+Entry Requirements:
+Minimum Entry Requirements
+
+A Bachelor’s degree (Level 6, MQF) in Computing or related fields with a minimum CGPA of 3.00, as accepted by the HEP Senate; OR
+
+A Bachelor’s degree (Level 6, MQF) in Computing or related fields with a minimum CGPA of 2.00 and not meeting a CGPA of 3.00 can be accepted subject to a thorough rigorous assessment as determined by the HEP; OR
+
+A Bachelor’s degree (Level 6, MQF) in a Non-Computing field with a minimum CGPA of 2.50 can be accepted subject to a thorough rigorous assessment as determined by the HEP to identify the appropriate prerequisite courses that are equivalent to their working experience in the Computing or related fields; OR
+
+ A Bachelor’s degree (Level 6, MQF) in a Non-Computing field with a minimum CGPA of 2.50 can be accepted subject to appropriate prerequisite courses; OR
+
+Other qualifications equivalent to a Bachelor’s degree (Level 6, MQF) in Computing or related fields recognised by the Government of Malaysia must fulfil the requirement on item i or ii.
+
+
+English Language Requirements
+
+1) Malaysian Students
+
+MUET Band 4.0 or IELTS Band 5.5 or CEFR Low B2 or TOEFL iBT 46 or equivalent ; OR
+
+Exemption of English Language requirement if the medium of instruction during Bachelor studies was in English
+
+2) International Students
+
+IELTS Band 5.5 or CEFR Low B2 or TOEFL iBT 46 or equivalent; OR
+
+Exemption of English Language requirement if the medium of instruction during Bachelor studies was in English
+
+
+url: https://cpsr.tarc.edu.my/programmes/by-research/faculty-of-computing-and-information-technology/master-of-computer-science

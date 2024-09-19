@@ -9,6 +9,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.utils.function_calling import convert_to_openai_tool
 from typing import Optional, List
 from langchain_pinecone import PineconeVectorStore
+from langchain_core.documents import Document
 import json
 import os
 from uuid import uuid4
@@ -16,13 +17,13 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-model = ChatMistralAI(model="mistral-small-latest",
+model = ChatMistralAI(model="open-mixtral-8x22b",
                       mistral_api_key=os.environ["MISTRAL_API_KEY"])
 
 
 class Programme(BaseModel):
-    programme_overview: Optional[str] = Field(
-        description="A brief overview of the programme.")
+    # programme_overview: Optional[str] = Field(
+    #     description="A brief overview of the programme.")
     programme_name: str = Field(
         description="The name of the programme.")
     campuses: List[str] = Field(
@@ -36,7 +37,7 @@ class Programme(BaseModel):
     career_perspectives: Optional[str] = Field(
         description="The career perspectives of the programme.")
     estimated_fees: int = Field(
-        description="The estimated fees for the programme.")
+        description="The estimated fees for the programme (for local students and international students).")
     minimum_entry_requirements: List[str] = Field(
         description="The minimum entry requirements for the programme.")
     academic_progression: Optional[str] = Field(
@@ -46,7 +47,7 @@ class Programme(BaseModel):
 
 
 prompt = ChatPromptTemplate.from_messages([
-    ("system", "Extract the relevant information, if not explicitly provided do not guess. Extract partial info, in JSON Format"),
+    ("system", "Extract the relevant information, if not explicitly provided do not guess. Extract partial info, Return Format must be in JSON Format"),
     ("human", "{input}")
 ])
 
@@ -63,43 +64,78 @@ file_paths = [
     "./data/Foundation_in_Computing.txt",
     "./data/Diploma_in_Computer_Science.txt",
     "./data/Diploma_in_Information_Technology.txt",
+    "./data/Bachelor_of_Software_Engineering.txt",
+    "./data/Bachelor_of_DS.txt",
+    "./data/Bachelor_of_Interactive.txt",
+    "./data/Bachelor_of_Software_Dev.txt",
+    "./data/Bachelor_of_Information_Security.txt",
+    "./data/Master_of_IT.txt",
+    "./data/Master_of_CS.txt",
+    "./data/Phd_of_IT.txt",
+    "./data/Phd_of_CS.txt",
 ]
+
+programmes = [
+    "Foundation in Computing",
+    "Diploma in Computer Science",
+    "Diploma in Information Technology",
+    "Bachelor of Software Engineering (Honours)",
+    "Bachelor of Computer Science (Honours) in Data Science",
+    "Bachelor of Computer Science (Honours) in Interactive Software Technology",
+    "Bachelor of Information Technology (Honours) in Software Systems Development",
+    "Bachelor of Information Technology (Honours) in Information Security",
+    "Master of Information Technology",
+    "Master of Computer Science",
+    "Doctor of Philosophy (Information Technology)",
+    "Doctor of Philosophy in Computer Science"
+]
+
 output_file = "./data/extracted_programmes.json"
 
-if not os.path.exists(output_file):
-    # Load each file separately and combine the results
-    docs = []
-    for path in file_paths:
-        loader = TextLoader(path)
-        docs.extend(loader.load())  # Combine the documents
+# if not os.path.exists(output_file):
+# Load each file separately and combine the results
+docs = []
+for path in file_paths:
+    loader = TextLoader(path)
+    docs.extend(loader.load())  # Combine the documents
 
-    pinecone_api_key = os.environ.get("PINECONE_API_KEY")
-    pc = Pinecone(api_key=pinecone_api_key)
+documents = []
+for i, doc in enumerate(docs):
+    response = extraction_chain.invoke({"input": doc})
+    document = Document(
+        page_content=json.dumps(response),
+        metadata={"source": programmes[i]},
+    )
+    documents.append(document)
 
-    index_name = "focs-index2"
+# print(documents)
+pinecone_api_key = os.environ.get("PINECONE_API_KEY")
+pc = Pinecone(api_key=pinecone_api_key)
 
-    existing_indexes = [index_info["name"] for index_info in pc.list_indexes()]
+index_name = "focs-index11"
 
-    if index_name not in existing_indexes:
-        pc.create_index(
-            name=index_name,
-            dimension=1024,
-            metric="cosine",
-            spec=ServerlessSpec(cloud="aws", region="us-east-1"),
-        )
-        while not pc.describe_index(index_name).status["ready"]:
-            time.sleep(1)
+existing_indexes = [index_info["name"] for index_info in pc.list_indexes()]
 
-    index = pc.Index(index_name)
+if index_name not in existing_indexes:
+    pc.create_index(
+        name=index_name,
+        dimension=1024,
+        metric="cosine",
+        spec=ServerlessSpec(cloud="aws", region="us-east-1"),
+    )
+    while not pc.describe_index(index_name).status["ready"]:
+        time.sleep(1)
 
-    embeddings = MistralAIEmbeddings(
-        mistral_api_key=os.environ["MISTRAL_API_KEY"])
+index = pc.Index(index_name)
 
-    vector_store = PineconeVectorStore(index=index, embedding=embeddings)
+embeddings = MistralAIEmbeddings(
+    mistral_api_key=os.environ["MISTRAL_API_KEY"])
 
-    uuids = [str(uuid4()) for _ in range(len(docs))]
+vector_store = PineconeVectorStore(index=index, embedding=embeddings)
 
-    vector_store.add_documents(documents=docs, ids=uuids)
+uuids = [str(uuid4()) for _ in range(len(docs))]
+
+vector_store.add_documents(documents=documents, ids=uuids)
 
 # for doc in docs:
 #     response = extraction_chain.invoke({"input": doc})
