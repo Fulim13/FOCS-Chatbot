@@ -43,7 +43,7 @@ def send_some_data(request):
     vector_store = PineconeVectorStore(index=index, embedding=embeddings)
     data = vector_store.similarity_search(
         question,
-        k=1,
+        k=2,
     )
 
     prompt = ChatPromptTemplate.from_messages([
