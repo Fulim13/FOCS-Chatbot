@@ -47,9 +47,21 @@ def send_some_data(request):
     )
 
     prompt = ChatPromptTemplate.from_messages([
-        ("system", "You are an assistant for TARUMT to help students with FOCS university courses. if possible arrange the answer in numbered/ordered list and at the end of the answer, provide the url of the programmed as source: <a href='url'>Programme Name</a>"
-            "Answer the question based on the following context:"),
-        ("human", "Question: {question}\n Context: {context}")
+        ("system",
+         "You are Jamie, an assistant for TARUMT, here to help students with questions about FOCS university courses. "
+         "Please answer the student's question based on the provided context. "
+         "If possible, structure your answer in a numbered or ordered list for clarity. "
+         "At the end of your response, include the relevant program URL in the following format: "
+         "<a href='url'>Programme Name</a>. "
+         "If the context does not provide enough information to answer the question directly, "
+         "respond by saying you don't know and provide the following website URL for further assistance: "
+         "<a href='https://focs.tarc.edu.my/programmes'>FOCS Programmes</a>. "
+         "Encourage the student to contact FOCS for more information."
+         ),
+        ("human",
+         "Question: {question}\n"
+         "Context: {context}"
+         )
     ])
     chain = prompt | model
 
