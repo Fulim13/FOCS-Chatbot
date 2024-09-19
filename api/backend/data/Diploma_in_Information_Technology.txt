@@ -1,96 +1,59 @@
-Diploma in Information Technology
+Name: Diploma in Information Technology
 
-Programme Overview
-
-
-The Diploma in Information Technology programme is designed to equip students with the technical knowledge and skills in using technologies relevant to information systems development. Courses like Web and Mobile Systems, Web-Based Integrated Systems, Object-Oriented Programming, Introduction to Cybersecurity, Introduction to Interface Design, Information Management, Cloud Computing for Business and Fundamentals of Computer Networks are offered in addition to the foundation of computer science (problems solving and programming, computer architecture, database, systems analysis and design and operating systems) courses. Students will also have the opportunity to experience 20 weeks of industrial training in related industries. Graduates of this discipline should be able to work effectively at planning, implementing, configuring and maintaining an organisation’s computing infrastructure. They are to be prepared to succeed in roles involving planning and managing technology infrastructure. 
+Description/Programme Overview: The Diploma in Information Technology programme is designed to equip students with the technical knowledge and skills in using technologies relevant to information systems development. Courses like Web and Mobile Systems, Web-Based Integrated Systems, Object-Oriented Programming, Introduction to Cybersecurity, Introduction to Interface Design, Information Management, Cloud Computing for Business and Fundamentals of Computer Networks are offered in addition to the foundation of computer science (problems solving and programming, computer architecture, database, systems analysis and design and operating systems) courses. Students will also have the opportunity to experience 20 weeks of industrial training in related industries. Graduates of this discipline should be able to work effectively at planning, implementing, configuring and maintaining an organisation’s computing infrastructure. They are to be prepared to succeed in roles involving planning and managing technology infrastructure.
 
 Campuses:
 
 KL - Kuala Lumpur Main Campus
-KL (R2/0611/4/0092)(08/28)(AA0111)
-
 PG - Penang Branch Campus
-PG (R2/0611/4/0087)(09/28)(AA0141)
-
 PK - Perak Branch Campus
-PK (R2/0611/4/0094)(09/28)(AA0154)
-
 JH - Johor Branch Campus
-JH (R2/0611/4/0090)(09/28)(AA0163)
-
 PH - Pahang Branch
-PH (R2/0611/4/0089)(12/28)(AA0168)
-
 SB - Sabah Branch
-SB (R2/0611/4/0093)(12/28)(AA0122)
 
 
-Intake:
-
-June
+Intake: June
 
 
-Duration:
-
-2 years
+Duration: 2 years
 
 
 Programme Outline
-
-Problem Solving and Programming
-
-Introduction to Interface Design
-
-Information Technology and Systems
-
-Web-Based Integrated Systems
-
-Ethics in Computing
-
-Web and Mobile Systems
-
-Cloud Computing and Business
-
-Systems Analysis and Design
-
-Object-Oriented Programming Techniques
-
-Operating Systems
-
-Computer Architecture
-
-Fundamentals of Computer Networks
-
-Information Management
-
-Database Development and Applications
-
-Introduction to Cybersecurity
-
-Calculus and Algebra
-
-Probability and Statistics
-
-Discrete Mathematics
-
-Discrete Mathematical Structures
-
-Industrial Training (20 weeks)
-
-
-Language, Mata Pelajaran Pengajian Umum (MPU) and Co-curricular Courses:
-
-English for Tertiary Studies, Academic English, Bahasa Kebangsaan A/ Civic Consciousness and Volunteerism, Penghayatan Etika dan Peradaban, Integrity and Anti Corruption, Co-curricular
+"Problem Solving and Programming",
+"Introduction to Interface Design",
+"Information Technology and Systems",
+"Web-Based Integrated Systems",
+"Ethics in Computing",
+"Web and Mobile Systems",
+"Cloud Computing and Business",
+"Systems Analysis and Design",
+"Object-Oriented Programming Techniques",
+"Operating Systems",
+"Computer Architecture",
+"Fundamentals of Computer Networks",
+"Information Management",
+"Database Development and Applications",
+"Introduction to Cybersecurity",
+"Calculus and Algebra",
+"Probability and Statistics",
+"Discrete Mathematics",
+"Discrete Mathematical Structures",
+"Industrial Training (20 weeks)"
+"English for Tertiary Studies",
+"Academic English",
+"Bahasa Kebangsaan A/ Civic Consciousness and Volunteerism",
+"Penghayatan Etika dan Peradaban",
+"Integrity and Anti Corruption",
+"Co-curricular"
 
 
 Academic Progression
 
 Graduates may be admitted into Year 2 of:
 
-Bachelor of Information Technology (Honours) in Software Systems Development 
+Bachelor of Information Technology (Honours) in Software Systems Development
 
-Bachelor of Information Technology (Honours) in Information Security 
+Bachelor of Information Technology (Honours) in Information Security
 
 Bachelor of Information Systems (Honours) in Enterprise Information Systems
 
@@ -111,18 +74,19 @@ IT Executives
 
 Web and Mobile Developers
 
-Fees & Financial Aid
+
+
 
 Estimated Total Fees : RM19,300 (Malaysian Student), RM36,100 (International Student)
 
 
 Minimum Entry Requirements
-SPM - 3 Credits in the relevant subjects
-O Level - 3 Grade C in the relevant subjects
-UEC - 3 Grade B in the relevant subjects
-Compulsory subjects:
-SPM Credit in Mathematics or Additional Mathematics/
-O Level Grade C in Mathematics or MathematicsAdditional/UEC Grade B in one mathematics subject
-SPM Pass/O Level Grade E (Pass)/UEC Grade C in English
-Language**
+ "SPM": "3 Credits in the relevant subjects AND (SPM Credit in Mathematics or Additional Mathematics) AND SPM Pass in English Language",
 
+"UEC": "3 Grade B in the relevant subjects AND UEC Grade B in one mathematics subject AND UEC Grade C in English Language",
+
+"Certificate": "Relevant Certificate accredited by MQA OR Relevant Skilled/Technical/Vocational Certificate accredited by MQA or recognized by the Malaysian Government"
+
+"O LEVEL": "3 Grade C in the relevant subjects AND (O Level Grade C in Mathematics or Mathematics-Additional) AND O Level Grade E(Pass) in English Language"
+
+url: https://focs.tarc.edu.my/programmes/diploma/diploma-in-information-technology-dft/

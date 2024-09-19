@@ -1,0 +1,51 @@
+Name: Foundation in Computing
+
+Description/Programme Overview: The Foundation in Computing programme is the recommended pathway for students wishing to pursue bachelor’s degree programmes in Computer Science, Information Technology, Information System, or Software Engineering.
+
+Programme Outline/Main Course:
+"English Language",
+"Introduction to Programming",
+"Introduction to Computer Networks",
+"Information Technology Essentials",
+"Mathematics",
+"Data Management",
+"Web Development",
+"Statistics",
+"English for Communication",
+"Introduction to Multimedia",
+"Introduction to Operating Systems",
+"Emerging Trends in IT",
+"Algebra & Trigonometry",
+"Calculus"
+
+Estimated Total Fees: RM 10,200 (Malaysian Students), RM 18,400 (International Students)
+
+Campus: Kuala Lumpur, Penang
+
+
+Intakes: Kuala Lumpur : February, June, October, Penang : June
+
+Duration:  1 Year
+
+Minimum Requirement:
+
+"SPM": "5 Credits in the relevant subjects including 1 mathematics subject AND SPM Pass in English Language",
+
+"UEC": "3 Grade B in the relevant subjects including 1 mathematics subject AND UEC Grade C in English Language"
+
+"O LEVEL": "5 Grade C in the relevant subjects including 1 mathematics subject AND O Level Grade E(Pass) in English Language"
+
+Academic Progression: Graduates may be admitted into Year 1 of:
+Bachelor of Information Systems (Honours) in Enterprise Information Systems
+
+Bachelor of Information Technology (Honours) in Software Systems Development
+
+Bachelor of Information Technology (Honours) in Information Security
+
+Bachelor of Software Engineering (Honours)
+
+Bachelor of Computer Science (Honours) in Interactive Software Technology
+
+Bachelor of Computer Science (Honours) in Data Science
+
+URL: https://sites.google.com/tarc.edu.my/cpus/programmes/foundation-in-computing/

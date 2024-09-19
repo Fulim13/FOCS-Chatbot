@@ -27,12 +27,14 @@ jsonpointer==3.0.0
 langchain==0.2.15
 langchain-core==0.2.37
 langchain-mistralai==0.1.12
+langchain-pinecone==0.1.1
 langchain-text-splitters==0.2.2
 langsmith==0.1.109
 multidict==6.0.5
 numpy==1.26.4
 orjson==3.10.7
 packaging==24.1
+pinecone-client==3.2.2
 psycopg2-binary==2.9.9
 pydantic==2.8.2
 pydantic_core==2.20.1
