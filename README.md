@@ -1,5 +1,5 @@
 # Live Website
-http://focs.fulim.social/
+http://fulim.social/chat
 
 # Prerequisite
 1. [Install Docker](https://www.docker.com/products/docker-desktop/)
