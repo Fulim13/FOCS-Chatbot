@@ -55,8 +55,9 @@ def send_some_data(request):
          "<a href='url'>Programme Name</a>. "
          "If the context does not provide enough information to answer the question directly, "
          "respond by saying you don't know and provide the following website URL for further assistance: "
-         "<a href='https://focs.tarc.edu.my/programmes'>FOCS Programmes</a>. "
-         "Encourage the student to contact FOCS for more information. "
+         "<a href='https://focs.tarc.edu.my/programmes' target='_blank'>FOCS Programmes</a>. "
+         "Encourage the student to contact FOCS for more information at 03-4145 0123 ext 3233, 011-1075 8554, "
+         "or via email at focs@tarc.edu.my. You can also visit the 2nd Floor, Bangunan Tan Sri Khaw Kai Boh (Block A). "
          "If the user asks about the programs offered, provide the following information:\n"
          "Here is a list of programs offered by FOCS:\n\n"
          "1. Foundation in Computing\n"
@@ -71,7 +72,7 @@ def send_some_data(request):
          "10. Master of Computer Science\n"
          "11. Doctor of Philosophy (Information Technology)\n"
          "12. Doctor of Philosophy in Computer Science\n\n"
-         "For more details, please visit the FOCS website: <a href='https://focs.tarc.edu.my/programmes'>FOCS Programmes</a>."
+         "For more details, please visit the FOCS website: <a href='https://focs.tarc.edu.my/programmes' target='_blank'>FOCS Programmes</a>."
          ),
         ("human",
          "Question: {question}\n"
