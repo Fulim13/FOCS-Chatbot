@@ -6,6 +6,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Chat from "./Chat";
+import ResultUpload from "./ResultUpload";
 
 const Home = () => <h2>Home Page</h2>;
 const ProgrammeFC = () => <h2>Programme Foundation in Computing Page</h2>;
@@ -59,6 +60,9 @@ const Navigation = () => {
             <Nav.Link>
               <Link to="/chat">Chat</Link>
             </Nav.Link>
+            <Nav.Link>
+              <Link to="/upload-result">Upload Result</Link>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -81,6 +85,7 @@ const App = () => {
         <Route path="/programme/degree-se" element={<ProgrammeBSE />} />
         <Route path="/programme/degree-ds" element={<ProgrammeBDS />} />
         <Route path="/chat" element={<Chat />} />
+        <Route path="/upload-result" element={<ResultUpload />} />
       </Routes>
     </div>
   );
