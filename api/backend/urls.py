@@ -17,8 +17,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from . import views
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     # ... other code
     path('test/', views.send_some_data),  # Add this
+    path('upload-result/', views.upload_result),  # Add this
 ]

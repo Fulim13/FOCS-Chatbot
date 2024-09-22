@@ -3,22 +3,14 @@ import { Form, Button } from "react-bootstrap";
 
 const ResultUpload = () => {
   const [selectedFile, setSelectedFile] = useState(null);
-  const [uploadStatus, setUploadStatus] = useState("");
+  const [isGeneratingResponse, setIsGeneratingResponse] = useState(false);
   const [selectedProgram, setSelectedProgram] = useState("");
+  const [responseMessage, setResponseMessage] = useState("");
 
   const programOptions = [
     "Foundation in Computing",
     "Diploma in Computer Science",
     "Diploma in Information Technology",
-    "Bachelor of Software Engineering (Honours)",
-    "Bachelor of Computer Science (Honours) in Data Science",
-    "Bachelor of Computer Science (Honours) in Interactive Software Technology",
-    "Bachelor of Information Technology (Honours) in Software Systems Development",
-    "Bachelor of Information Technology (Honours) in Information Security",
-    "Master of Information Technology",
-    "Master of Computer Science",
-    "Doctor of Philosophy (Information Technology)",
-    "Doctor of Philosophy in Computer Science",
   ];
 
   const handleFileChange = (event) => {
@@ -33,7 +25,7 @@ const ResultUpload = () => {
     event.preventDefault();
 
     if (!selectedFile || !selectedProgram) {
-      setUploadStatus("Please select a file and a program first.");
+      setResponseMessage("Please select a file and a program first.");
       return;
     }
 
@@ -41,19 +33,25 @@ const ResultUpload = () => {
     formData.append("resultImage", selectedFile);
     formData.append("program", selectedProgram);
 
+    setIsGeneratingResponse(true);
+
     try {
-      const response = await fetch("http://localhost:8000/result-upload", {
+      const response = await fetch("http://localhost:8000/upload-result/", {
         method: "POST",
         body: formData,
       });
 
+      const data = await response.json();
+
       if (response.ok) {
-        setUploadStatus("File uploaded successfully.");
+        setResponseMessage(data.data);
       } else {
-        setUploadStatus("Failed to upload file.");
+        setResponseMessage(data.error || "An unknown error occurred.");
       }
     } catch (error) {
-      setUploadStatus("Error while uploading: " + error.message);
+      setResponseMessage("Error while uploading: " + error.message);
+    } finally {
+      setIsGeneratingResponse(false);
     }
   };
 
@@ -82,11 +80,17 @@ const ResultUpload = () => {
           />
         </Form.Group>
 
-        <Button variant="primary" type="submit">
-          Upload
+        <Button variant="primary" type="submit" disabled={isGeneratingResponse}>
+          {isGeneratingResponse ? "Generating Response..." : "Upload"}
         </Button>
       </Form>
-      {uploadStatus && <p>{uploadStatus}</p>}
+      {isGeneratingResponse && <p>Response is generating, please wait...</p>}
+      {responseMessage && (
+        <div
+          style={{ textAlign: "left", whiteSpace: "pre-wrap" }} // Left align and pre-wrap the response text
+          dangerouslySetInnerHTML={{ __html: responseMessage }}
+        />
+      )}
     </div>
   );
 };

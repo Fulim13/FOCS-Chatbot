@@ -11,6 +11,9 @@ from dotenv import load_dotenv
 import time
 from pinecone import Pinecone, ServerlessSpec
 from langchain_pinecone import PineconeVectorStore
+from rest_framework.parsers import MultiPartParser, FormParser
+from rest_framework import status
+import requests
 load_dotenv()
 # memory = ConversationSummaryMemory(llm=ChatMistralAI(
 #     temperature=0, model="mistral-large-latest"))
@@ -103,3 +106,137 @@ def send_some_data(request):
                 })
             else:
                 time.sleep(RETRY_DELAY)  # Wait before retrying
+
+
+@api_view(['POST'])
+def upload_result(request):
+    # Parsing the incoming request with file and form data
+    parser_classes = [MultiPartParser, FormParser]
+
+    # Get the uploaded file and the selected program from the form
+    image_file = request.FILES.get('resultImage', None)
+    selected_program = request.POST.get('program', '')
+
+    # Prepare the request to OCR.Space API
+    url = "https://api.ocr.space/parse/image"
+    api_key = os.environ["OCR_API_KEY"]  # Replace with your actual API key
+
+    # Prepare the multipart/form-data payload
+    files = {
+        'file': image_file,
+    }
+    data = {
+        'apikey': api_key,
+        'language': 'eng',
+        'isTable': 'true',
+    }
+
+    # Send the POST request to the OCR.Space API
+    try:
+        response = requests.post(url, files=files, data=data)
+        response_data = response.json()
+        print(response_data['ParsedResults'][0]['ParsedText'])
+
+        # Check if the response was successful
+        if response.status_code == 200:
+            model = ChatMistralAI(model="mistral-large-latest",
+                                  mistral_api_key=os.environ["MISTRAL_API_KEY"])
+
+            index_name = "focs-index11"
+            pinecone_api_key = os.environ.get("PINECONE_API_KEY")
+            pc = Pinecone(api_key=pinecone_api_key)
+            index = pc.Index(index_name)
+
+            embeddings = MistralAIEmbeddings(
+                mistral_api_key=os.environ["MISTRAL_API_KEY"])
+            vector_store = PineconeVectorStore(
+                index=index, embedding=embeddings)
+            data = vector_store.similarity_search(
+                selected_program*5,
+                k=1,
+            )
+
+            prompt = ChatPromptTemplate.from_messages([
+                ("system",
+                 "You are an evaluation assistant for TARUMT, tasked with helping students determine their eligibility for selected programs. "
+                 "Please respond strictly using the format provided below, based on your analysis:\n"
+                 "<div color='red' for Not Eligible or green for Eligible'> Eligible Status: Eligible/Not Eligible </div>\n"
+                 "Reason: <reason here>\n"),
+
+                ("human",
+                 "Here is the extracted text from the uploaded image:\n"
+                 "{extracted_text}\n\n"
+                 "Here are the minimum requirements for the selected program:\n"
+                 "{minimum_requirement}\n\n"
+
+                 "Important: If the extracted text is empty or does not include 'SPM - Sijil Pelajaran Malaysia', return only this format:\n"
+                 "<div color='red'> Eligible Status: Not Eligible </div>\n"
+                 "Reason: Unable to find SPM Certificate\n"
+                 "Do not proceed further in this case.\n\n"
+
+                 "Follow this step-by-step guide to assess eligibility:\n"
+                 "1. Identify the Minimum Requirement for the Program.\n"
+                 "2. Check the extracted text for 'SPM' (Sijil Pelajaran Malaysia):\n"
+                 "   - Cemerlang Tertinggi - A+\n"
+                 "   - Cemerlang Tinggi - A\n"
+                 "   - Cemerlang - A-\n"
+                 "   - Kepujian Tertinggi - B+\n"
+                 "   - Kepujian Tinggi - B\n"
+                 "   - Kepujian Atas - C+\n"
+                 "   - Kepujian - C\n"
+                 "   - Lulus Atas - D\n"
+                 "   - Lulus - E\n"
+                 "   - Gagal - G\n"
+                 "   - TH - Tidak Hadir\n"
+                 "Note: 'MATHEMATIK TAMBAHAN' refers to Additional Mathematics. If OCR misreads it as 'Ma Tematik', consider it Additional Mathematics.\n"
+                 "3. Compare the applicant's certificate results with the program's minimum requirements:\n"
+                 "   - If the result exceeds the minimum, the applicant is eligible.\n"
+                 "   - If the result is below the minimum, the applicant is not eligible.\n"
+                 "   - If the result matches the minimum, the applicant is eligible.\n"
+                 "   - If the result is unclear or not found, the applicant is not eligible.\n"
+                 "   - If the extracted text includes 'SPM - Sijil Pelajaran Malaysia' but does not provide sufficient grades to meet the minimum requirements, provide the appropriate reason for not being eligible.\n"
+                 "Examples:\n"
+                 "   - If the minimum requirement is 'A' in Mathematics and the applicant has 'B', they are not eligible.\n"
+                 "   - If Additional Mathematics is required and not listed in the grades, even though the applicant has Mathematics, they are not eligible.\n"
+                 "   - If the minimum requirement is 5 credits and the applicant has only 4 credits, they are not eligible.\n"
+                 "   - If the applicant has 'C' in English but the minimum requirement is 'B', they are not eligible.\n"
+                 "   - If the extracted result states 'SPM - Not found' instead of a grade, the applicant is not eligible.\n"
+                 "   - If the required subjects are not mentioned in the extracted text, the applicant is not eligible.\n"
+                 "   - If the applicant has 'G' in Bahasa Melayu and Sejarah, they are not eligible.\n"
+                 "4. Return the eligibility format:\n"
+                 "<div color='red' for Not Eligible or green for Eligible'> Eligible Status: Eligible/Not Eligible </div>\n"
+                 "Reason: <reason here>\n"
+                 "Note: If uncertain, indicate 'Not Eligible' with a clear reason. Avoid using 'unknown'.\n"
+                 )
+            ])
+
+            chain = prompt | model
+
+            retries = 0
+            while retries < MAX_RETRIES:
+                try:
+                    result = chain.invoke(
+                        {"extracted_text": response_data['ParsedResults']
+                            [0]['ParsedText'],
+                            "minimum_requirement": data}
+                    )
+
+                    return Response({
+                        "data": result.content
+                    })
+                except Exception as e:
+                    retries += 1
+                    if retries >= MAX_RETRIES:
+                        return Response({
+                            "error": "Failed to process the request after multiple attempts.",
+                            "details": str(e)
+                        })
+                    else:
+                        time.sleep(RETRY_DELAY)  # Wait before retrying
+
+                    return Response(response_data)
+        else:
+            return Response({"error": "Failed to process the image.", "details": response_data}, status=status.HTTP_400_BAD_REQUEST)
+
+    except Exception as e:
+        return Response({"error": "An error occurred while processing the request.", "details": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
