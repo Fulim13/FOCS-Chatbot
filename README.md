@@ -1,5 +1,3 @@
-This is a ChatBot about FOCS
-
 # Prerequisite
 
 1. [Install Docker](https://www.docker.com/products/docker-desktop/)
